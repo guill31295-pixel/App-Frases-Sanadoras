@@ -19,7 +19,7 @@ def get_base64_image(image_path):
 # Reemplaza 'fondo_constelaciones.jpg' con el nombre exacto de tu archivo
 import csv
 
-nombre_imagen = r"../imagenes/fondo_constelaciones.JPG"
+nombre_imagen = r"imagenes/fondo_constelaciones.JPG"
 csv.path = r"C:\Users\guill\OneDrive\Documents\App Frases Sanadoras\imagenes\fondo_constelaciones.jpg.jpeg"
 
 try:
