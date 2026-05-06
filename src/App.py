@@ -133,6 +133,14 @@ st.markdown(f"""
     }}
 </style>
 """, unsafe_allow_html=True)
+# Cambiamos la forma en que mostramos el título
+# Usamos un contenedor separado para el emoji y el texto
+st.markdown("""
+    <div style="text-align: center;">
+        <span style="font-size: 3rem; margin-right: 10px;">✨</span>
+        <p class="titulo-principal" style="display: inline-block;">Frases Sanadoras</p>
+    </div>
+""", unsafe_allow_html=True)
 # --- FIN DEL CSS ---
 
 
@@ -169,7 +177,19 @@ with col2:
     "Me retiro de tu carga.",
     "Te veo.",
     "Estoy aquí gracias a ti.",
-    "Todo está bien ahora.",  
+    "Todo está bien ahora.", 
+    "Mamá gracias por la vida que me diste al precio que a ti te costó y que a mí me cuesta ahora.",
+    "Ahora puedo ver tu dolor y lo dejo contigo, es mucho para mí, yo solo soy la pequeña o el pequeño.",
+    "Por favor bendíceme si decido hacerlo diferente.",
+    "Mamá ya todo terminó, ya todo quedó atrás, el dolor, la vergüenza y la venganza, ahora yo decido quedarme en la vida.",
+    "Gracias por todo lo que me diste, ahora yo me encargo de lo que no me pudiste dar, ya crecí Mamá.",
+    "Mamá gracias por ser exactamente como eres o como fuiste. Tú eres la madre perfecta para mí y yo soy la hija (hijo) perfecta para ti.",
+    "Lo que pasó entre mi padre y tú, no me incumbe, yo solo soy la hija o el hijo.",
+    "Asiento a tu historia, así fue para ti, ahora dame tu permiso para hacerlo diferente.",
+    "Ahora puedo ver lo que te ata al pasado, y entiendo porque no estabas disponible para mi. Veo tu sufrimiento y asiento a todo como fue. Ahora ya todo terminó, ya no hay nada que pagar, no hay nada que vengar, así tuvo que ser.",
+    "Acepto todo lo que viene de ti, lo bueno, lo difícil tal como fue.",
+    "Le doy un lugar en mi corazón a aquello que te dolió, pero ya todo terminó."
+
     ]
 
     # Lógica: Solo mostramos el botón si NO se ha obtenido frase aún
