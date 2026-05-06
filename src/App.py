@@ -154,7 +154,7 @@ if "frase_obtenida" not in st.session_state:
 col1, col2, col3 = st.columns([1, 2, 1])    
 
 with col2:
-    st.markdown('<p class="titulo-principal">✨ Frases Sanadoras</p>', unsafe_allow_html=True)
+    
     st.markdown('<p class="subtitulo">Presiona el botón para recibir tu frase sanadora del día.</p>', unsafe_allow_html=True)
 
     frases = [
